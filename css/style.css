@@ -386,7 +386,7 @@ body{
 .serv{
   height: 220px;
   width: 220px;
-  transform-origin: center top;
+  transform-origin: center bottom;
   position: absolute;
 }
 .popup{
@@ -395,7 +395,7 @@ body{
   width: 0px;
   box-shadow: 0px 1px 7px #777;
   background-color: #fcfcfc;
-  top: 90px;
+  top: 0px;
   border: 0px solid #a29694;
   border-radius: 4px;
   -webkit-transition: height 0.3s cubic-bezier(.79,.14,.15,.86) 0.1s, width 0.3s cubic-bezier(.79,.14,.15,.86) 0.1s, box-shadow 0.7s cubic-bezier(.79,.14,.15,.86) 0.25s, top 0.3s cubic-bezier(.79,.14,.15,.86) 0.1s;
@@ -504,9 +504,10 @@ body{
  opacity: 0.1;
 }
 .serv:hover .popup{
-  height: auto;
+  height: 300px;
   width:300px;
-  top: 250px;
+  top: 100px;
+  padding:0px;
   box-shadow: 0px 25px 35px #777;
 }
 .serv:hover .poptext{
@@ -514,7 +515,7 @@ body{
   animation-duration: 0.1s;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -532,12 +533,12 @@ body{
   width: 200px;
 }
 .icon:hover{
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
 }
 .icon2:hover{
-  height: 130px;
-  width: 130px;
+  height: 140px;
+  width: 140px;
 }
 a:link, a:focus {
   text-decoration: none;
@@ -663,7 +664,7 @@ a:active {
 
 /* IMG	*/
 .image1{
-  background-image: url('../img/chisiamo.jpg');
+  background-image: url('../img/chisiamo3.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: ;
@@ -671,7 +672,7 @@ a:active {
 
 }
 .image2{
-  background-image: url('../img/servizi.jpg');
+  background-image: url('../img/servizi2.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: ;
@@ -687,7 +688,7 @@ a:active {
   background-color: #1f1f1f;
 }
 .image4{
-  background-image: url('../img/dove.jpg');
+  background-image: url('../img/dove3.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: ;
