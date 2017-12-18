@@ -280,6 +280,7 @@ body{
 }
 .content-text{
   font-size: 23px;
+  line-height: 150%;
 }
 .home-title {
   color: #F8F8F8;
@@ -645,6 +646,7 @@ a:active {
   }
   .content-text{
     font-size: 16px;
+    line-height: 150%;
   }
   .map{
     height: 50%;
